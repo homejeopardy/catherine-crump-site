@@ -22,7 +22,7 @@ const PUBLICATIONS = [
     title: "Handout for Flash Talk — The Landscape Post-Carpenter",
     authors: "Catherine Crump",
     cite: "Conference materials (2022)",
-    links: [{ label: "PDF", url: "https://lawcat.berkeley.edu/record/1241799/files/0003-36-1-Samuelson.pdf" }],
+    links: [],
   },
 
   /* ---------------- Articles ---------------- */
