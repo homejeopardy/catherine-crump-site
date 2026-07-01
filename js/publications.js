@@ -14,7 +14,7 @@ const PUBLICATIONS = [
     title: "Reforming Policing from the White House: The Challenges of Implementing Police Reform Through Executive Order",
     authors: "Catherine Crump",
     cite: "Research Handbook on Penal Policy (Alessandro Corda ed., 2025) (forthcoming book contribution)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1314896" }],
   },
   {
     category: "book",
@@ -22,7 +22,7 @@ const PUBLICATIONS = [
     title: "Handout for Flash Talk — The Landscape Post-Carpenter",
     authors: "Catherine Crump",
     cite: "Conference materials (2022)",
-    links: [{ label: "PDF", url: null }],
+    links: [{ label: "PDF", url: "https://lawcat.berkeley.edu/record/1241799/files/0003-36-1-Samuelson.pdf" }],
   },
 
   /* ---------------- Articles ---------------- */
@@ -32,7 +32,7 @@ const PUBLICATIONS = [
     title: "Why 72 Intellectual Property Scholars Supported Google’s Copyrightability Analysis in the Oracle Case",
     authors: "Pamela Samuelson & Catherine Crump",
     cite: "36 Berkeley Tech. L.J. 413 (2021)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1241799" }],
   },
   {
     category: "article",
@@ -40,7 +40,7 @@ const PUBLICATIONS = [
     title: "Tracking the Trackers: An Examination of Electronic Monitoring of Youth in Practice",
     authors: "Catherine Crump",
     cite: "53 UC Davis L. Rev. 795 (2019)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1129127" }],
   },
   {
     category: "article",
@@ -48,7 +48,7 @@ const PUBLICATIONS = [
     title: "Privacy Protection in Online Multimedia",
     authors: "Yung-Hsiang Lu, Andrea Cavallaro, Catherine Crump, Gerald Friedland & Keith Winstein",
     cite: "Proc. of the 25th ACM Int’l Conf. on Multimedia (ACM MM’17) 457 (2017)",
-    links: [{ label: "PDF", url: null }],
+    links: [{ label: "PDF", url: "https://lawcat.berkeley.edu/record/1128175" }],
   },
   {
     category: "article",
@@ -56,7 +56,7 @@ const PUBLICATIONS = [
     title: "Electronic Monitoring of Youth in the California Justice System",
     authors: "Catherine Crump, Christina Koningisor, Rena Coen & Chieh Tung; Samuelson Law, Technology & Public Policy Clinic (UC Berkeley School of Law) & East Bay Community Law Center",
     cite: "2017",
-    links: [{ label: "PDF", url: null }],
+    links: [{ label: "PDF", url: "https://lawcat.berkeley.edu/record/1128174" }],
   },
   {
     category: "article",
@@ -64,7 +64,7 @@ const PUBLICATIONS = [
     title: "Surveillance Policy Making by Procurement",
     authors: "Catherine Crump",
     cite: "91 Wash. L. Rev. 1595 (2016)",
-    links: [{ label: "PDF", url: null }],
+    links: [{ label: "PDF", url: "https://lawcat.berkeley.edu/record/1127536" }],
   },
   {
     category: "article",
@@ -72,7 +72,7 @@ const PUBLICATIONS = [
     title: "No Tape, No Testimony: How Courts Can Ensure the Responsible Use of Body Cameras",
     authors: "Catherine Crump; Samuelson Law, Technology & Public Policy Clinic & ACLU of Massachusetts",
     cite: "2016",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1127612" }],
   },
   {
     category: "article",
@@ -80,7 +80,7 @@ const PUBLICATIONS = [
     title: "Protecting Privacy from Aerial Surveillance: Recommendations for Government Use of Drone Aircraft",
     authors: "Catherine Crump & Jay Stanley",
     cite: "ACLU (2011)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1124682" }],
   },
   {
     category: "article",
@@ -88,7 +88,7 @@ const PUBLICATIONS = [
     title: "Data Retention: Privacy, Anonymity, and Accountability Online",
     authors: "Catherine Crump",
     cite: "56 Stan. L. Rev. 191 (2003)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1118869" }],
   },
 
   /* ---------------- Popular Press ---------------- */
@@ -98,7 +98,7 @@ const PUBLICATIONS = [
     title: "Stop monitoring emails between inmates and their lawyers",
     authors: "Catherine Crump & Ken White",
     cite: "Washington Post (June 2020)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://www.washingtonpost.com/opinions/2020/03/20/coronavirus-is-upending-society-here-are-ideas-mitigate-its-impact/?arc404=true#Crump-White" }],
   },
   {
     category: "press",
@@ -106,7 +106,7 @@ const PUBLICATIONS = [
     title: "Op-Ed: Lawyers can’t visit clients in prison, so quit monitoring their emails",
     authors: "Catherine Crump & Ken White",
     cite: "Los Angeles Times (June 2020)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://www.latimes.com/opinion/story/2020-06-22/lawyers-incarcerated-prisons-email-monitor" }],
   },
   {
     category: "press",
@@ -114,7 +114,7 @@ const PUBLICATIONS = [
     title: "A win for digital privacy — but that’s just the tip of the government surveillance iceberg",
     authors: "Catherine Crump & Megan Graham",
     cite: "San Francisco Chronicle (July 2018)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://www.sfchronicle.com/opinion/article/A-win-for-digital-privacy-but-that-s-just-13050358.php" }],
   },
   {
     category: "press",
@@ -122,7 +122,7 @@ const PUBLICATIONS = [
     title: "Clerkships are invaluable for young lawyers. They can also be a setup for abuse",
     authors: "Catherine Crump",
     cite: "Washington Post (Dec. 2017)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://www.washingtonpost.com/news/posteverything/wp/2017/12/15/when-women-law-clerks-are-harassed-they-often-have-nowhere-to-turn/" }],
   },
   {
     category: "press",
@@ -130,7 +130,7 @@ const PUBLICATIONS = [
     title: "Electronic monitoring isn’t kid-friendly",
     authors: "Catherine Crump, Kate Weisburd & Christina Koningisor",
     cite: "Sacramento Bee (July 2017)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://www.sacbee.com/opinion/op-ed/soapbox/article162572678.html" }],
   },
   {
     category: "press",
@@ -138,7 +138,7 @@ const PUBLICATIONS = [
     title: "Police Should Be Required To Dashcam Everything",
     authors: "Catherine Crump",
     cite: "Slate (2016)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://slate.com/technology/2016/03/police-should-be-required-to-dashcam-everything.html" }],
   },
   {
     category: "press",
@@ -146,7 +146,7 @@ const PUBLICATIONS = [
     title: "It’s Important for SF to Get Body-Camera Rules for Police Right",
     authors: "Catherine Crump",
     cite: "San Francisco Chronicle (2016)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1127609" }],
   },
   {
     category: "press",
@@ -154,7 +154,7 @@ const PUBLICATIONS = [
     title: "Citizens Need More Say over Police Surveillance Technology",
     authors: "Catherine Crump",
     cite: "San Francisco Chronicle (2016)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1127608" }],
   },
   {
     category: "press",
@@ -162,7 +162,7 @@ const PUBLICATIONS = [
     title: "Invasion of the Data Snatchers: Big Data and the Internet of Things Means the Surveillance of Everything",
     authors: "Catherine Crump & Matthew Harwood",
     cite: "TomDispatch (2014)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://tomdispatch.com/crump-and-harwood-the-net-closes-around-us" }],
   },
   {
     category: "press",
@@ -170,7 +170,7 @@ const PUBLICATIONS = [
     title: "A Cop May Be Following You Everywhere",
     authors: "Catherine Crump",
     cite: "CNN (2014)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "http://www.cnn.com/2014/10/06/opinion/crump-police-surveillance/index.html" }],
   },
   {
     category: "press",
@@ -178,7 +178,7 @@ const PUBLICATIONS = [
     title: "You Are Being Tracked: How License Plate Readers Are Being Used to Record Americans’ Movements",
     authors: "Catherine Crump",
     cite: "ACLU (2013)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1125858" }],
   },
   {
     category: "press",
@@ -186,7 +186,7 @@ const PUBLICATIONS = [
     title: "Why Americans Are Saying No to Domestic Drones",
     authors: "Catherine Crump & Jay Stanley",
     cite: "Slate (2013)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://slate.com/technology/2013/02/domestic-surveillance-drone-bans-are-sweeping-the-nation.html" }],
   },
   {
     category: "press",
@@ -194,7 +194,7 @@ const PUBLICATIONS = [
     title: "The Vast, Troubling Call Database Drug Agents Use to Identify Burner Phones",
     authors: "Catherine Crump",
     cite: "Slate (2013)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://slate.com/technology/2013/09/hemisphere-project-an-aclu-lawyer-on-the-troubling-database-used-to-id-burner-phones.html" }],
   },
   {
     category: "press",
@@ -202,7 +202,7 @@ const PUBLICATIONS = [
     title: "Cell Phone Companies Reveal How Often They Hand Your Data Over to Law Enforcement",
     authors: "Catherine Crump",
     cite: "Slate (2013)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://slate.com/technology/2013/12/ed-markey-letters-from-cellphone-companies-how-often-at-t-t-mobile-give-the-government-customer-data.html" }],
   },
   {
     category: "press",
@@ -210,7 +210,7 @@ const PUBLICATIONS = [
     title: "The Best Week for Privacy In a Long Time",
     authors: "Catherine Crump",
     cite: "CNN (2013)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://www.cnn.com/2013/12/21/opinion/crump-privacy-victories/index.html" }],
   },
   {
     category: "press",
@@ -218,7 +218,7 @@ const PUBLICATIONS = [
     title: "The GPS Act Supports Legitimate Investigations and Protects Privacy",
     authors: "Catherine Crump",
     cite: "U.S. News & World Report (2012)",
-    links: [{ label: "Link", url: null }],
+    links: [{ label: "Link", url: "https://lawcat.berkeley.edu/record/1125303" }],
   },
   {
     category: "press",
@@ -226,7 +226,7 @@ const PUBLICATIONS = [
     title: "How GPS Tracking Threatens Our Privacy",
     authors: "Catherine Crump",
     cite: "CNN (2011)",
-    links: [{ label: "PDF", url: null }],
+    links: [{ label: "PDF", url: "https://www.cnn.com/2011/11/07/opinion/crump-gps/index.html" }],
   },
   {
     category: "press",
@@ -234,7 +234,7 @@ const PUBLICATIONS = [
     title: "Court Rulings Unreasonably Silence Student Speech",
     authors: "Catherine Crump",
     cite: "Knoxville News-Sentinel (2010)",
-    links: [{ label: "PDF", url: null }],
+    links: [{ label: "PDF", url: "https://lawcat.berkeley.edu/record/1124112" }],
   },
 ];
 
