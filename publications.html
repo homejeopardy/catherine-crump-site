@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Catherine Crump</title>
+  <meta name="description" content="Books, articles, and popular-press writing by Catherine Crump on surveillance, privacy, policing, and civil liberties." />
+  <link rel="icon" type="image/png" href="assets/cl60-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Catherine Crump <span class="brand-sub">UC Berkeley Law</span></a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="publications.html" class="active">Publications</a></li>
+        <li><a href="teaching.html">Teaching &amp; Clinic</a></li>
+        <li><a href="civil-liberties-60.html">Civil Liberties in 60s</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Selected Writing</p>
+      <h1 class="section-title" style="font-size:2.4rem">Publications</h1>
+      <div class="rule"></div>
+      <p class="lead" style="max-width:60ch;margin-bottom:28px">Scholarship and public writing on government surveillance, privacy, policing technology, and civil liberties.</p>
+
+      <div class="pub-controls" id="pub-controls">
+        <span style="font-weight:600;color:var(--muted);font-size:0.9rem;margin-right:4px">Filter:</span>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="book">Books &amp; Chapters</button>
+        <button class="filter-btn" data-filter="article">Articles</button>
+        <button class="filter-btn" data-filter="press">Popular Press</button>
+      </div>
+
+      <div id="pub-root">
+        <noscript><p>Please enable JavaScript to view the full publications list.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Catherine Crump</h4>
+        <p style="margin:0;max-width:34ch">Professor of Law &amp; Faculty Director, Samuelson Law, Technology &amp; Public Policy Clinic, UC Berkeley School of Law.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="teaching.html">Teaching &amp; Clinic</a></li>
+          <li><a href="civil-liberties-60.html">Civil Liberties in 60s</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:ccrump@clinical.law.berkeley.edu">Email</a></li>
+          <li><a href="https://www.youtube.com/@profcrump" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a href="https://www.law.berkeley.edu/our-faculty/faculty-profiles/catherine-crump/" target="_blank" rel="noopener">Berkeley Profile</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Catherine Crump. All rights reserved.</span>
+      <span>UC Berkeley School of Law</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/publications.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
