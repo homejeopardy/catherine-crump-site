@@ -102,25 +102,36 @@ img { max-width: 100%; display: block; }
   gap: 12px; padding: 12px 24px; max-width: 1180px; margin: 0 auto;
 }
 .brand {
-  display: flex; align-items: baseline; gap: 10px;
+  display: flex; align-items: center; gap: 12px; white-space: nowrap;
   color: #fff; font-family: var(--serif); font-weight: 700;
-  font-size: 1.12rem; letter-spacing: 0.01em;
+  font-size: 1.16rem; letter-spacing: 0.01em;
 }
 .brand:hover { text-decoration: none; }
 .brand .brand-sub {
-  font-family: var(--sans); font-weight: 400; font-size: 0.78rem;
-  color: #cfe0ef; letter-spacing: 0.04em; text-transform: uppercase;
+  font-family: var(--sans); font-weight: 600; font-size: 0.68rem;
+  color: #b9cbe0; letter-spacing: 0.13em; text-transform: uppercase;
+  padding-left: 12px; border-left: 1px solid rgba(255,255,255,0.28);
+  line-height: 1.15;
 }
-.nav-links { display: flex; align-items: center; gap: 2px; list-style: none; margin: 0; padding: 0; }
+.nav-links { display: flex; align-items: center; gap: 3px; list-style: none; margin: 0; padding: 0; }
 .nav-links a {
-  color: #e7eef5; font-size: 0.9rem; font-weight: 600; white-space: nowrap;
-  padding: 8px 10px; border-radius: 4px; display: inline-block;
+  color: #dbe6f2; font-size: 0.92rem; font-weight: 600; white-space: nowrap;
+  padding: 8px 12px; border-radius: 6px; display: inline-block;
+  transition: color .15s ease, background .15s ease;
 }
-.nav-links a:hover { background: rgba(255,255,255,0.12); text-decoration: none; }
+.nav-links a:hover { color: #fff; background: rgba(255,255,255,0.10); text-decoration: none; }
 .nav-links a.active { color: #fff; }
 .nav-links a.active::after {
-  content: ""; display: block; height: 2px; margin-top: 4px;
+  content: ""; display: block; height: 2px; margin-top: 5px;
   background: var(--california-gold); border-radius: 2px;
+}
+/* Contact call-to-action pill */
+.nav-links a.nav-cta {
+  margin-left: 6px; padding: 7px 18px; border-radius: 999px;
+  color: #fff; border: 1.5px solid rgba(253,181,21,0.85);
+}
+.nav-links a.nav-cta:hover {
+  background: var(--california-gold); color: var(--berkeley-blue-deep); border-color: var(--california-gold);
 }
 .nav-toggle {
   display: none; background: transparent; border: 1px solid rgba(255,255,255,0.4);
@@ -289,6 +300,16 @@ img { max-width: 100%; display: block; }
   .nav-links.open { display: flex; }
   .nav-links a { padding: 12px 8px; font-size: 1rem; }
   .nav-links a.active::after { display: none; }
+  /* Contact reverts to a plain (gold) link inside the dropdown */
+  .nav-links a.nav-cta {
+    margin-left: 0; padding: 12px 8px; border: none; border-radius: 6px;
+    color: var(--california-gold);
+  }
+  .nav-links a.nav-cta:hover { background: rgba(255,255,255,0.10); color: var(--california-gold); }
+}
+
+@media (max-width: 560px) {
+  .brand .brand-sub { display: none; }
 }
 
 @media (max-width: 860px) {
