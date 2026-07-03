@@ -12,3 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   }
 });
+
+/* Land on in-page anchors correctly after load (accounts for the sticky
+   header via CSS scroll-margin, plus any late font/layout shifts). */
+window.addEventListener("load", () => {
+  const id = location.hash.slice(1);
+  if (!id) return;
+  const el = document.getElementById(id);
+  if (el) setTimeout(() => el.scrollIntoView(), 80);
+});
