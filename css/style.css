@@ -325,3 +325,28 @@ img { max-width: 100%; display: block; }
   .pub { grid-template-columns: 1fr; gap: 4px; }
   .pub-year { font-size: 0.95rem; }
 }
+
+/* ---------------------------- Feedback form ---------------------------- */
+.feedback-form { display: flex; flex-direction: column; gap: 14px; max-width: 560px; }
+.feedback-form textarea,
+.feedback-form input {
+  width: 100%;
+  font-family: var(--sans);
+  font-size: 1rem;
+  color: var(--ink);
+  padding: 13px 15px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.feedback-form textarea { resize: vertical; min-height: 112px; line-height: 1.5; }
+.feedback-form textarea:focus,
+.feedback-form input:focus {
+  outline: none;
+  border-color: var(--berkeley-blue);
+  box-shadow: 0 0 0 3px rgba(0, 50, 98, .12);
+}
+.feedback-form .btn { align-self: flex-start; }
+.feedback-note { color: var(--muted); font-size: .88rem; margin: 2px 0 0; }
+.feedback-done { color: var(--berkeley-blue); font-weight: 700; font-size: 1.05rem; margin: 8px 0; }

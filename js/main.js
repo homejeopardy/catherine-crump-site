@@ -21,3 +21,21 @@ window.addEventListener("load", () => {
   const el = document.getElementById(id);
   if (el) setTimeout(() => el.scrollIntoView(), 80);
 });
+
+/* Feedback form → opens the visitor's email client to the beta feedback address. */
+(function () {
+  var f = document.getElementById("feedback-form");
+  if (!f) return;
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var msg = (f.message.value || "").trim();
+    if (!msg) return;
+    var email = (f.email.value || "").trim();
+    var body = msg + (email ? "\n\n— from: " + email : "");
+    window.location.href =
+      "mailto:feedback@beta.catherine-crump.com" +
+      "?subject=" + encodeURIComponent("Site feedback (beta)") +
+      "&body=" + encodeURIComponent(body);
+    f.innerHTML = '<p class="feedback-done">Thanks! Your email app should be opening — hit send and it\'s on its way.</p>';
+  });
+})();
